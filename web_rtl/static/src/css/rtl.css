@@ -147,7 +147,9 @@ padding: 0px 2px;
 .rtl .text-core .text-wrap .text-arrow{
   top: 3px !important;
 }
-
+.rtl .oe_form_field.oe_tags {
+  display: inline;
+}
 /*--------------------------left menu------------------------------------*/
 .oe_secondary_menus_container ul{
     padding-left: 0px; 
