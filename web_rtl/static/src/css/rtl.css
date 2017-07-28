@@ -509,7 +509,9 @@ view switch manager
 .rtl .oe_im_chatview{
   right: auto !important;
   left: 0px;
-} 
+  margin-right: 0px;
+  margin-left: 6px;
+}
 .rtl .oe_im_chatview .oe_im_chatview_message_bubble .oe_im_chatview_clip{
   float: right;
   margin-left: 4px;
@@ -519,6 +521,9 @@ view switch manager
   right: auto;
   left: 0px;
   text-align: left;
+}
+.oe_im_chatview .oe_im_chatview_right{
+  float: left;
 }
 .rtl .oe_im .oe_im_user .oe_im_user_online{
   right: auto!important;
